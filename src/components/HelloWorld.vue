@@ -76,7 +76,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'HelloWorld',
@@ -84,11 +84,10 @@ export default defineComponent({
     msg: String
   },
   setup() {
-    const message = ref('hdhahda');
-
-    return {
-      message
-    };
+    // const message = ref('hdhahda');
+    // return {
+    //   message
+    // };
   }
 });
 </script>
