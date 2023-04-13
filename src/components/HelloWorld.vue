@@ -69,7 +69,6 @@
       </li>
       <li>
         <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener"></a>
-        {{ message }}
       </li>
     </ul>
   </div>
